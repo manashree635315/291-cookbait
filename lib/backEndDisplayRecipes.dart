@@ -53,7 +53,7 @@ class FirestoreDB {
         fetch_70.add(m['image-url']);
         fetch70Name.add(m['Name']);
         fetch70Id.add(m['ID'].toString());
-      } else if (k >= 0.16) {
+      } else if (k >= 0.10) {
         //change
         fetch_60.add(m['image-url']);
         fetch60Name.add(m['Name']);
@@ -176,30 +176,30 @@ class FirestoreDB {
       ls.add(fetchAllTexts[i]);
       str.add(ls);
     }
-    if (str[0].isEmpty) {
+    if (str.isEmpty) {
       fetchAllBooleans.add('1');
       fetchAllIds.add('1');
       fetchAllUrls.add(
-          'https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Anjana_Chaturvedi/Cabbage_and_carrot_sambharo.jpg');
+          'https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Pooja_Thakur/Karela_Masala_Recipe-4_1600.jpg');
       fetchAllNames.add('Masala Karela');
       fetchAllTexts.add('No matches! Suggestions:');
       fetchAllBooleans.add('1');
-      fetchAllIds.add('1');
+      fetchAllIds.add('2');
       fetchAllUrls.add(
-          'https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Anjana_Chaturvedi/Cabbage_and_carrot_sambharo.jpg');
-      fetchAllNames.add('Masala Karela');
+          'https://www.archanaskitchen.com/images/archanaskitchen/1-Author/b.yojana-gmail.com/Spicy_Thakkali_Rice_Tomato_Pulihora-1_edited.jpg');
+      fetchAllNames.add('Spicy Tomato');
       fetchAllTexts.add(' ');
       fetchAllBooleans.add('0');
-      fetchAllIds.add('1');
+      fetchAllIds.add('11');
       fetchAllUrls.add(
-          'https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Anjana_Chaturvedi/Cabbage_and_carrot_sambharo.jpg');
-      fetchAllNames.add('Masala Karela');
+          'https://www.archanaskitchen.com/images/archanaskitchen/World_Breakfast/Homemade_baked_beans_Recipe_healthy_breakfast_shutterstock_222439996.jpg');
+      fetchAllNames.add('Homemade Baked Beans Recipe');
       fetchAllTexts.add('Basic');
       fetchAllBooleans.add('0');
-      fetchAllIds.add('1');
+      fetchAllIds.add('101');
       fetchAllUrls.add(
-          'https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Anjana_Chaturvedi/Cabbage_and_carrot_sambharo.jpg');
-      fetchAllNames.add('Masala Karela');
+          'https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Padma_Veeranki/Tricolour_Capsicum_Masala_StirFry.jpg');
+      fetchAllNames.add('Capsicum Masala Poriyal ');
       fetchAllTexts.add('Basic');
       for (int i = 0; i < fetchAllUrls.length; i++) {
         List<String> ls = [];
